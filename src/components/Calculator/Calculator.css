@@ -23,11 +23,18 @@
     width: 100%;
 }
 
-.input{
+.input {
     border: 1px solid;
     width: 100%;
     height: 120px;
     background-color: white;
+    text-align: right;
+    font-size: 40px;
+}
+
+.result-r{
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 .calculator-keyboard-container{
