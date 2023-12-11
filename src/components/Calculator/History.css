@@ -1,3 +1,23 @@
+.containerHistory{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.historyTable{
+    width: 30%;
+    padding: 30px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
 .HistoryWrapper {
     max-width: 600px;
     margin: 50px auto;
@@ -6,6 +26,7 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    text-align: center;
 }
 
 .HistoryList {
@@ -23,6 +44,21 @@
     border-bottom: none;
 }
 
+.ClearHistoryButton {
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #dc3545; /* Красный цвет для кнопки очистки */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ClearHistoryButton:hover {
+    background-color: #c82333; /* Темнее красный при наведении */
+}
+
 .BackLink {
     display: block;
     margin-top: 20px;
@@ -34,3 +70,4 @@
 .BackLink:hover {
     text-decoration: underline;
 }
+
